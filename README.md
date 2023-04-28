@@ -8,3 +8,32 @@ You can find all tutorials on my channel: [Playlist](https://www.youtube.com/pla
 - Part 2: Learn how to setup the environment and implement the Snake game.
 - Part 3: Implement the agent that controls the game.
 - Part 4: Implement the neural network to predict the moves and train it.
+
+
+Installation:
+
+1. **Requirements:** need python3, pip3 and venv. Installation guide: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
+
+**2. Access activate:** 
+
+Linux:
+```
+.source env/bin/activate
+```
+
+Windows:
+```
+.\env\Scripts\activate
+```
+
+**3. Install requirements:**
+
+```
+pip install -r requirements.txt
+```
+
+
+**4. Run the application:**
+```
+python agent.py
+```
